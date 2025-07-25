@@ -17,14 +17,16 @@ TECHNOLOGIES USED
 
 PROJECT STRUCTURE
 -----------------
-walmart-sql-python/
-│
-├── data/                 # Raw and cleaned CSV files
-├── sql_queries/          # MySQL analysis scripts
-├── notebooks/            # Optional Jupyter notebooks
-├── main.py               # Python script to clean and load data
-├── requirements.txt      # List of Python dependencies
-└── README.txt            # This documentation file
+```plaintext
+|-- data/                     # Raw data and transformed data
+|-- sql_queries/              # SQL scripts for analysis and queries
+|-- notebooks/                # Jupyter notebooks for Python analysis
+|-- README.md                 # Project documentation
+|-- requirements.txt          # List of required Python libraries
+|-- main.py                   # Main script for loading, cleaning, and processing data
+```
+---
+
 
 STEPS TO RUN THIS PROJECT
 --------------------------
@@ -35,8 +37,7 @@ STEPS TO RUN THIS PROJECT
 2. Download the dataset:
    - Get Kaggle API token from your Kaggle account
    - Place kaggle.json in your .kaggle/ folder
-   - Use the command:
-     kaggle datasets download -d najir0123/walmart-10k-sales-datasets
+   - Dataset Link: [Walmart Sales Dataset](https://www.kaggle.com/najir0123/walmart-10k-sales-datasets
 
 3. Install dependencies:
    pip install -r requirements.txt
